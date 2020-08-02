@@ -1,4 +1,14 @@
+/* 
+
+Template 2091 Ziggy
+
+http://www.tooplate.com/view/2091-ziggy
+
 */
+body{
+	border: white 20px solid ;
+	overflow-x: hidden;
+}
 
 .container-1{
 	/* position: relative; */
@@ -130,6 +140,7 @@ p {
 	text-align: center;
 	/* height: 50vh; */
 	background: rgba(255, 255, 255, 0.185);
+	transition: background-color 0.5s ease;
 	/* border: white solid 1px; */
 }
 .third-section .service-item:hover {
@@ -173,7 +184,7 @@ p {
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-	padding: 20% 0px;
+	padding: 15% 0px;
 }
 
 .second-section .left-image img {
@@ -316,12 +327,13 @@ p {
 }
 
 .fourth-section .send-to-portfolio {
-	box-shadow: rgba(0, 0, 0, 0.562) 0px 0px 20px;
+	box-shadow: rgba(0, 0, 0, 0.562) 0px 0px 10px;
+	transition: box-shadow 0.5s ease;
 	/* border-radius: 30px; */
 }
 
 .fourth-section .send-to-portfolio:hover {
-	box-shadow: rgba(32, 41, 102, 0.705) 0px 0px 40px;
+	box-shadow: rgba(18, 21, 43, 0.986) 0px 0px 20px;
 	/* border-radius: 30px; */
 }
 
